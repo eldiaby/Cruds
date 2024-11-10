@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product managment system" />
+    <meta name="author" content="Eldiaby hossny" />
+    <meta name="keywords" content="Product managment system" />
+    <meta>
+    <title>Document</title>
+
+    <!-- Normalize css file -->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+
+    <!-- Font awesome
+    <link rel="stylesheet" href="css/font-awesome.css" /> -->
+
+    <!-- Main sittings stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- style for the page -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Media queries -->
+    <link rel="stylesheet" href="css/query.css" />
+
+    <!-- Main script file -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="main-heading">Cruds</h1>
+      <p class="main-description">Product managment system</p>
+    </header>
+
+
+    <main class="main-content">
+
+
+      <section class="section-inputs">
+        <input type="text" name="title" id="title" class="input-title" placeholder="Title" />
+        <div class="price-inputs">
+          <input type="number" name="price" id="price" placeholder="Price" />
+          <input type="number" name="taxes" id="taxes" placeholder="Taxes" />
+          <input type="number" name="ads" id="ads" placeholder="Ads" />
+          <input type="number" name="discount" id="discount" placeholder="Discount" />
+          <small id="total-price" class="total-price"></small>
+        </div>
+        <input type="number" id="count" placeholder="Count" />
+        <input type="text" id="category" placeholder="Category" />
+        <button type="button" id="submit">Create</button>
+      </section>
+
+
+      <section class="section-outputs">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search" />
+          <div class="search-btns">
+            <button type="button">Search by title</button>
+            <button type="button">Search by category</button>
+          </div>
+          <button type="button" id="search-btn">Search</button>
+        </div>
+
+        <table class="table-container">
+          <thead>
+            <tr>
+              <!-- <th>ID </th> -->
+              <th>Title</th>
+              <th>Price</th>
+              <th>Taxes</th>
+              <th>Ads</th>
+              <th>Discount</th>
+              <th>Total</th>
+              <th>Category</th>
+              <th class="text-center">Update</th>
+              <th class="text-center">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td>1</td>
+              <td>Product 1</td>
+              <td>100</td>
+              <td>10</td>
+              <td>10</td>
+              <td>10</td>
+              <td>10</td>
+              <td>Category 1</td>
+              <td><button type="button">Update</button></td>
+              <td><button type="button">Delete</button></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+
+</html>

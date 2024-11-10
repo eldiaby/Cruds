@@ -1,0 +1,97 @@
+/* Start header styleing */
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.main-description {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.8rem;
+}
+
+/* End header styleing */
+/* ================================================= */
+/* Start Input section styleing */
+
+.section-inputs {
+}
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-inputs input {
+  width: 15%;
+}
+
+.total-price {
+  background-color: #a00d02;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  margin-left: 1.2rem;
+  width: 20%;
+
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.total-price.active {
+  background-color: #008000;
+}
+
+.total-price::before {
+  content: 'Total price: ';
+}
+
+/* End Input section styleing */
+/* ================================================= */
+/* Start outputs section styleing */
+
+.search-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.search-btns button {
+  width: 45%;
+}
+
+.table-container {
+  width: 100%;
+  text-align: left;
+}
+
+thead {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 0.4rem;
+  font-size: 1.4rem;
+}
+
+table button {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* End outputs section styleing */
