@@ -50,18 +50,23 @@
         </div>
         <input type="number" id="count" placeholder="Count" />
         <input type="text" id="category" placeholder="Category" />
-        <button type="button" id="submit">Create</button>
+        <button type="button" id="submit" class="capitalize">Create</button>
       </section>
 
 
       <section class="section-outputs">
         <div class="search-container">
-          <input type="text" id="search-input" placeholder="Search" />
+          <input type="search" id="search-input" placeholder="Search" />
           <div class="search-btns">
-            <button type="button">Search by title</button>
-            <button type="button">Search by category</button>
+            <button type="button" class="title">Search by title</button>
+            <button type="button" class="category">Search by category</button>
           </div>
-          <button type="button" id="search-btn">Search</button>
+          <!-- <button type="button" id="search-btn">Search</button> -->
+        </div>
+
+        <div class="delete-all-container"><button type="button" class="delete-all-btn">Delete all products <span
+              class="products-count"></span>
+          </button>
         </div>
 
         <table class="table-container">

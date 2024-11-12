@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -80,3 +81,11 @@ button:hover {
   background-color: #51025f;
   letter-spacing: 0.1rem;
 }
+
+
+/* capitalize */
+
+.capitalize::first-letter {
+  text-transform: capitalize;
+}
+

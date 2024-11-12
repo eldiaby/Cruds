@@ -71,6 +71,16 @@
   width: 45%;
 }
 
+.delete-all-btn {
+  margin: 1.2rem 0;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-all-btn.active {
+  display: block;
+}
+
 .table-container {
   width: 100%;
   text-align: left;
